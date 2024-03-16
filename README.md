@@ -79,7 +79,7 @@ plt.show()
 
 <H3>Output:</H3>
 
-![](o1.PNG)
+![](o1.png)
 
 <H3>Results:</H3>
 Thus, the Kalman filter is implemented to predict the next position and velocity in Python.
