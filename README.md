@@ -71,8 +71,8 @@ for z in measurements:
 
 # plot the true and estimated positions
 import matplotlib.pyplot as plt
-plt.plot([s[0] for s in true_states], label='true')
-plt.plot([s[0] for s in est_states], label='estimate')
+plt.plot([s[0] for s in true_states], label='true', color='red')
+plt.plot([s[0] for s in est_states], label='estimate', color='navy')
 plt.legend()
 plt.show()
 ```
